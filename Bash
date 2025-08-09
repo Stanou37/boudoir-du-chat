@@ -1,0 +1,5 @@
+git init
+git remote add origin https://github.com/tonnom/boudoir-du-chat.git
+git add .
+git commit -m "Mise en ligne de la vitrine féline"
+git push -u origin main
