@@ -1,0 +1,135 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 :root \{\
+  --fond: #F5F0E6;\
+  --or: #D8B26E;\
+  --graphite: #2C2C2C;\
+\}\
+\
+body \{\
+  margin: 0;\
+  font-family: 'Montserrat', sans-serif;\
+  background: var(--fond);\
+  color: var(--graphite);\
+\}\
+\
+.header \{\
+  background: var(--or);\
+  padding: 2rem;\
+  text-align: center;\
+  font-family: 'Playfair Display', serif;\
+  color: white;\
+  position: relative;\
+\}\
+\
+.logo \{\
+  position: absolute;\
+  left: 1rem;\
+  top: 1rem;\
+  color: white;\
+  text-decoration: none;\
+  font-weight: bold;\
+\}\
+\
+.gallery \{\
+  display: flex;\
+  flex-direction: column;\
+  align-items: center;\
+  padding: 2rem;\
+\}\
+\
+.image-main img \{\
+  width: 80%;\
+  border-radius: 20px;\
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);\
+\}\
+\
+.thumbnails \{\
+  display: flex;\
+  gap: 1rem;\
+  margin-top: 1rem;\
+\}\
+\
+.thumbnails img \{\
+  width: 100px;\
+  border-radius: 10px;\
+  cursor: pointer;\
+  transition: transform 0.3s;\
+\}\
+\
+.thumbnails img:hover \{\
+  transform: scale(1.1);\
+\}\
+\
+.description \{\
+  padding: 2rem;\
+  text-align: center;\
+\}\
+\
+.description h2 \{\
+  font-family: 'Playfair Display', serif;\
+  font-size: 2rem;\
+  margin-bottom: 1rem;\
+\}\
+\
+.description ul \{\
+  list-style: none;\
+  padding: 0;\
+  margin: 1rem 0;\
+\}\
+\
+.description li \{\
+  margin: 0.5rem 0;\
+\}\
+\
+.btn-buy \{\
+  background-color: var(--graphite);\
+  color: white;\
+  padding: 0.8rem 2rem;\
+  border-radius: 30px;\
+  text-decoration: none;\
+  transition: background 0.3s ease;\
+\}\
+\
+.btn-buy:hover \{\
+  background-color: var(--or);\
+  color: var(--graphite);\
+\}\
+\
+.quote \{\
+  background: white;\
+  padding: 2rem;\
+  margin: 2rem;\
+  font-style: italic;\
+  text-align: center;\
+  border-radius: 15px;\
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);\
+\}\
+\
+.footer \{\
+  background: var(--graphite);\
+  color: white;\
+  text-align: center;\
+  padding: 2rem;\
+\}\
+\
+@media screen and (max-width: 768px) \{\
+  .products \{\
+    flex-direction: column;\
+    align-items: center;\
+  \}\
+\
+  .hero-overlay h2 \{\
+    font-size: 2rem;\
+  \}\
+\
+  .product-card \{\
+    width: 90%;\
+  \}\
+\}\
+}
